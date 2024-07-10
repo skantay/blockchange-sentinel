@@ -10,4 +10,4 @@ NOTE: maximum RPS is 60 for free version
 
 2. `make run-api` runs the server, you can make HTTP GET request to `localhost:8080/block/most_changed` and it replies with a result in a json format. 
 
-    By default used `8080` port, but you can add `.env` file with `HTTP_PORT` field.
+    By default `8080` port is used, but you can add `.env` file with `HTTP_PORT` field.
